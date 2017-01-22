@@ -1,1 +1,3 @@
 Implements a simple search function...
+
+https://travis-ci.org/cagdasgerede/myDemoApp.svg?branch=master
