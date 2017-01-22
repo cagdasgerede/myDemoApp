@@ -1,3 +1,3 @@
 Implements a simple search function...
 
-https://travis-ci.org/cagdasgerede/myDemoApp.svg?branch=master
+[![Build Status](https://travis-ci.org/cagdasgerede/myDemoApp.svg?branch=master)](https://travis-ci.org/cagdasgerede/myDemoApp)
