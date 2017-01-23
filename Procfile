@@ -1,1 +1,1 @@
-web: mvn exec:java -Dexec.mainClass="com.mycompany.app.App"
+web: java -jar target/helloworld.jar
