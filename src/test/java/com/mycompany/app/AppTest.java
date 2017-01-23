@@ -3,6 +3,8 @@ package com.mycompany.app;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import java.util.Arrays;
+import java.util.ArrayList;
 
 /**
  * Unit test for simple App.
@@ -36,17 +38,17 @@ public class AppTest
         assertTrue( true );
     }
     public void testFound() {
-      int[] array = new int[] {1, 2, 3, 4};
+      ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
       assertTrue(new App().search(array, 4));
     }
 
     public void testNotFound() {
-      int[] array = new int[] {1, 2, 3, 4};
+      ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
       assertFalse(new App().search(array, 5));
     }
 
     public void testEmptyArray() {
-      int[] array = new int[0];
+      ArrayList<Integer> array = new ArrayList<>();
       assertFalse(new App().search(array, 1));
     }
 
